@@ -280,15 +280,11 @@ hello() {
         pkg install -y sox >/dev/null 2>&1
     fi
     echo -e "
-\033[93m$$\033[97m      \033[93m$$\033[97m                               
-\033[93m$$\033[97m | $\033[93m\033[97m  \033[93m$$\033[97m |                              
-\033[93m$$\033[97m |$$$\033[93m\033[97m \033[93m$$\033[97m | \033[93m$$$$$$\033[97m\   \033[93m$$$$$$\033[97m\  \033[93m$$\033[97m\   \033[93m$$\033[97m\ 
-\033[93m$$\033[97m $$ $$\033[93m\033[97m$$ |$$  __$$\ $$  __$$\ \$$\ $$  |
-$$$$  _$$$$ |$$ |  \__|$$ /  $$ | \$$$$  / 
-$$$  / \$$$ |$$ |      $$ |  $$ | $$  $$<  
-$$  /   \$$ |$$ |      \$$$$$$  |$$  /\$$\ 
-\__/     \__|\__|       \______/ \__/  \__|
-\033[0m" | lolcat
+__        ______   _____  __  _____ ___   ___  _     ____                                                             \ \      / /  _ \ / _ \ \/ / |_   _/ _ \ / _ \| |   / ___|
+ \ \ /\ / /| |_) | | | \  /    | || | | | | | | |   \___ \
+  \ V  V / |  _ <| |_| /  \    | || |_| | |_| | |___ ___) |
+   \_/\_/  |_| \_\\___/_/\_\   |_| \___/ \___/|_____|____/
+echo -e "\033[0m" | lolcat
     local txt=" HALLO BRO SELAMAT DATANG DI WROX TOOLS V8.4 "
     local delay=0.04
     local len=${#txt}
@@ -569,7 +565,7 @@ DARK|dark)
     ;;
     00|0)
     klik
-      echo -e "${CYAN}TERIMAKASIH SUDAH MENGGUNAKAN TOOLS WROX.${NC}" | lolcat
+      echo -e "${CYAN}TERIMAKASIH SUDAH MENGGUNAKAN TOOLS GUSTI.${NC}" | lolcat
       klik
       stop_music # Menghentikan pemutaran musik saat keluar
       exit 0
@@ -1832,7 +1828,7 @@ menu_suntik() {
   ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
   │                ${BG_RED}${YELLOW}ALL BASE FITUR SUNTIK${NC}                │
   ╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯
-   ${BG_RED}${WHITE}CODE BY DANXY${NC}                          ${BG_RED}${WHITE}FITUR BY RANGG${NC}"
+   ${BG_RED}${WHITE}CODE BY GUSTI${NC}                          ${BG_RED}${WHITE}FITUR BY GUSTI${NC}"
     echo "
   ╭━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╮
   │                  ALL SUNTIK TIKTOK                 │
