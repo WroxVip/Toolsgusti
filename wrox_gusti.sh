@@ -82,7 +82,7 @@ NC='\033[0m'
 
 #WHATSAPP_CHANNEL_URL="https://whatsapp.com/channel/0029VaznZlq7z4kW00unHZ0e"
 YOUTUBE_URL="https://youtube.com/@gustimrr?si=QHiKpYmqyOdPUrN2"
-LAGU_YOUTUBE="https://youtu.be/U5k3yzGaVME?si=ji_rCMJEE6JAmrmi" # URL Lagu
+LAGU_YOUTUBE="https://https://youtu.be/_xUxFLEP6gc?si=vjuSBdwEG8UhrRvT" # URL Lagu
 LAPOR_TOOLS_ERROR="https://wa.me/14248421816?text=*LAPOR TOOLS ERROR BANG*"
 loading() {
 trap 'tput cnorm; kill $! 2>/dev/null' EXIT  # restore cursor & kill animasi
